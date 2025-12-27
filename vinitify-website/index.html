@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vinitify – Government Schemes & Personal Finance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">vinitify</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#schemes">Schemes</a>
+    <a href="#finance">Finance Tips</a>
+    <a href="#tools">Tools</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Unlock Government Benefits & Smart Money Moves</h1>
+  <p>Daily updates on schemes, subsidies, tax-saving & finance explained in simple Hinglish.</p>
+
+  <div class="cta">
+    <button class="primary">Check Latest Schemes</button>
+
+    <a href="https://wa.me/919876543210?text=Hi%20vinitify%2C%20please%20add%20me%20to%20free%20WhatsApp%20updates."
+       target="_blank">
+      <button class="secondary">Join Free WhatsApp Updates</button>
+    </a>
+  </div>
+
+  <p class="trust">Trusted by 50,000+ Indians 🇮🇳</p>
+</section>
+
+<!-- FEATURED CATEGORIES -->
+<section class="features">
+  <div class="card">🧾 Marriage Schemes</div>
+  <div class="card">🎓 Education Loans</div>
+  <div class="card">👴 Pension & Retirement</div>
+  <div class="card">💰 Tax Saving</div>
+</section>
+
+<!-- SCHEMES -->
+<section id="schemes" class="section">
+  <h2>Latest Government Schemes</h2>
+
+  <div class="scheme-grid">
+    <div class="scheme-card">
+      <h3>Pradhan Mantri Awas Yojana</h3>
+      <p><strong>Benefit:</strong> ₹2.67 Lakh subsidy</p>
+      <p><strong>Eligibility:</strong> Income below ₹18 LPA</p>
+      <button>Apply Now</button>
+    </div>
+
+    <div class="scheme-card">
+      <h3>Ladli Laxmi Yojana</h3>
+      <p><strong>Benefit:</strong> ₹1 Lakh for girl child</p>
+      <p><strong>Eligibility:</strong> Girl child families</p>
+      <button>Apply Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- FINANCE TIPS -->
+<section id="finance" class="section light">
+  <h2>Personal Finance Tips</h2>
+
+  <div class="blog-grid">
+    <div class="blog-card">
+      <h3>How to Save ₹50,000 Tax Every Year</h3>
+      <p>80C, 80D explained simply.</p>
+    </div>
+
+    <div class="blog-card">
+      <h3>SIP vs FD – Best for Middle Class?</h3>
+      <p>Where should you invest?</p>
+    </div>
+
+    <div class="blog-card">
+      <h3>Health Insurance Kyun Zaroori Hai?</h3>
+      <p>Medical inflation explained.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="section">
+  <h2>Finance Tools</h2>
+
+  <div class="tool">
+    <h3>EMI Calculator</h3>
+    <input type="number" id="loan" placeholder="Loan Amount">
+    <input type="number" id="rate" placeholder="Interest Rate (%)">
+    <input type="number" id="tenure" placeholder="Tenure (years)">
+    <button onclick="calculateEMI()">Calculate EMI</button>
+    <p id="emiResult"></p>
+  </div>
+
+  <div class="tool">
+    <h3>SIP Calculator</h3>
+    <input type="number" id="sipAmount" placeholder="Monthly SIP">
+    <input type="number" id="sipRate" placeholder="Return (%)">
+    <input type="number" id="sipYears" placeholder="Years">
+    <button onclick="calculateSIP()">Calculate SIP</button>
+    <p id="sipResult"></p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section light">
+  <h2>About vinitify</h2>
+  <p>
+    vinitify helps Indian middle-class families understand government schemes
+    and personal finance in simple language.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+
+  <input type="text" id="name" placeholder="Your Name">
+  <input type="email" id="email" placeholder="Email">
+  <textarea id="message" placeholder="Message"></textarea>
+  <button onclick="sendWhatsApp()">Send via WhatsApp</button>
+
+  <p class="privacy">
+    By contacting us, you agree to receive WhatsApp communication from vinitify.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 vinitify • Made for India 🇮🇳</p>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/9665532553?text=Hi%20vinitify%2C%20I%20need%20help%20with%20government%20schemes."
+   class="whatsapp-float"
+   target="_blank">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>

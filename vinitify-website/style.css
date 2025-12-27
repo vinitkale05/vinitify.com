@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #1c1c1c;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #0A3D62;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #EAF4FB;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.cta button {
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #0A3D62;
+  color: white;
+}
+
+.secondary {
+  background: #1E8449;
+  color: white;
+}
+
+.trust {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 40px;
+}
+
+.section.light {
+  background: #f5f7fa;
+}
+
+/* SCHEMES */
+.scheme-grid, .blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.scheme-card, .blog-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.scheme-card button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #1E8449;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* TOOLS */
+.tool {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.tool input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+/* CONTACT */
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.privacy {
+  font-size: 12px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* FOOTER */
+footer {
+  background: #0A3D62;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+}
